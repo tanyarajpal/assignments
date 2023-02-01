@@ -2,7 +2,6 @@ package generic_multithreading_gof;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 class GenericClass<T>{
     public void display(List<T>list){
