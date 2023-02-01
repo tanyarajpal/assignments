@@ -6,9 +6,10 @@ public class Laptops extends Inventory{
     private String brand;
     private int storage;
     private int price;
-    public Laptops(int no_of_laptops,String brand,int storage,int price){
-        super(no_of_laptops);
+    public Laptops(int no_of_laptops,int id,String brand,int storage,int price){
+        super(no_of_laptops,"laptops");
         this.lowOrderLevelQuantity = 3;
+        this.laptop_id = id;
         this.brand = brand;
         this.storage = storage;
         this.price = price;
@@ -16,13 +17,5 @@ public class Laptops extends Inventory{
     public Laptops(){
 
     }
-    public void placeOrder(int quantity,String brand){
-        System.out.println(this.quantity);
-        if(quantity <= this.quantity){
-            System.out.println("Bill ");
-            System.out.println(quantity*this.price);
-            return;
-        }
-        System.out.println("RequestForMaterial (RFM) is generated");
-    }
+    
 }

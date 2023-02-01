@@ -1,4 +1,4 @@
-package Abstract_Interface_Exception;
+package five;
 
 public abstract class Bank {
     public abstract int getBalance();

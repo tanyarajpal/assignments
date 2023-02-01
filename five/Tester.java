@@ -1,4 +1,4 @@
-package Abstract_Interface_Exception;
+package five;
 
 public class Tester {
     public static void main(String[] args) {
