@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Ques1 {
+public class Assign1_Ques1 {
 
 	public static void main(String[] args) {
 		
