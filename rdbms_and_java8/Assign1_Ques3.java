@@ -16,7 +16,7 @@ class Product{
 	}
 }
 
-public class Ques3 {
+public class Assign1_Ques3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

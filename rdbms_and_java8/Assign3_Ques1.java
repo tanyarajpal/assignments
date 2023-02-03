@@ -45,12 +45,3 @@ public class Assign3_Ques1 implements FI{
 
 }
 
-/*
-Output:
-Cube: 125
-Square: 25
-Addition: 10
-Subtraction: 0
-Multiplication: 25
-Division: 1
- */
