@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	 <form action="register" method="post">
+        Enter your name : <input type = "text" placeholder="Enter name" name="full name"/><br>
+        Enter your Password :  <input type="password" placeholder="Enter password" name="password"/><br>
+        Enter your email: <input type = "text" placeholder="Enter email" name="email"/><br>
+       
+        Select gender : 
+        <input type="radio" name="gender" value ="on"/>Female<br>
+        <input type="radio" name="gender" value ="on"/>Male<br>
+    
+        <br>
+        Select your course :
+        <select name = "dropdown">
+            <option value = "Java" selected >Java</option>
+            <option value = "Python" >Python</option>
+        </select>
+        <br>
+        <br>
+        
+        Select subjects : 
+        <input type="checkbox" id="agreement" name="agreement" value ="on"/>Agree to terms and conditions<br>
+        <br><br>
+          <input type="submit" name="register" value="register"/>
+          <input type="submit" name="reset" value="reset"/>
+        <br>
+        <br>
+    </form>
+</body>
+</html>
