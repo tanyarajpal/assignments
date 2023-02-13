@@ -6,8 +6,8 @@
 <session-factory>
 <property name="connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
 <property name="connection.url">jdbc:oracle:thin:@localhost:1521:orcl</property>
-<property name="connection.username">system</property>
-<property name="connection.password">Oracle_1</property>
+<property name="connection.username">sys as sysdba</property>
+<property name="connection.password">Nrifintech@123</property>
 <property name="dialect">org.hibernate.dialect.Oracle12cDialect</property>
 <property name="hbm2ddl.auto">update</property>
 
