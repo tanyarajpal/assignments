@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+    
+    
+    <bean class="com.springcore.Studentref.Address" name="addref">
+    <property name="street" value="sector 5"/>
+    <property name="city" value="Kolkata"/>
+    <property name="state" value="WB"/>
+    <property name="country" value="India"/>
+    </bean>
+    <bean class="com.springcore.Studentref.Student" name="sturef" p:id="101" p:name="Tanya" p:address-ref="addref"/>
+    </beans>
